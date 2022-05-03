@@ -11,7 +11,7 @@ pipeline {
 				input('Do you want to peoceed ?')
 			}
 		}
-		stage('Three'{
+		stage('Three'){
 			when{
 				not {
 					branch "master"
